@@ -69,9 +69,10 @@ graph LR
 
 ## License
 
-This project is licensed under the Apache 2.0 License - see the LICENSE file for details.
+see the LICENSE file for details.
 
-Data sourced from [Rebrickable](https://rebrickable.com) under their [terms of use](https://rebrickable.com/terms/).
+- LEGO dataset is provided by [Rebrickable](https://rebrickable.com) under their [terms of use](https://rebrickable.com/terms/)
+- Gurobi Optimizer requires a separate commercial license for full functionality. See [licensing options](https://www.gurobi.com/solutions/licensing/)
 
 
 ## Project support
