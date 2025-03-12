@@ -39,7 +39,9 @@ graph LR
 
 - Databricks Runtime 15.4 LTS or later
 - Python 3.10+
-- Gurobi License (commercial license needed for large model)
+- Gurobi License - You have two options:
+  - [Commercial License](https://www.gurobi.com/solutions/licensing/)
+  - [Databricks-specific Licensing](https://support.gurobi.com/hc/en-us/articles/20659745842961-Databricks-Architecture-and-licensing)
 
 ## Usage
 
@@ -50,17 +52,18 @@ graph LR
 
 ## Key Dependencies
 
-| Component | License | Purpose |
-|-----------|---------|---------|
-| Gurobi | Commercial | Optimization solver |
-| PySpark | Apache 2.0 | Data processing |
-| MLflow | Apache 2.0 | Experiment tracking |
-| Pandas | BSD 3-Clause | Data manipulation |
+| Library | Description | License | Source |
+|---------|-------------|---------|---------|
+| Gurobi | Commercial optimization solver for large-scale mathematical programming | Commercial | https://www.gurobi.com/ |
+| PySpark | Distributed computing framework for large-scale data processing | Apache 2.0 | https://pypi.org/project/pyspark/ |
+| MLflow | Platform for ML lifecycle management including tracking experiments and models | Apache 2.0 | https://pypi.org/project/mlflow/ |
+| Pandas | Data manipulation and analysis library | BSD 3-Clause | https://pypi.org/project/pandas/ |
+| NumPy | Fundamental package for scientific computing | BSD 3-Clause | https://pypi.org/project/numpy/ |
 
 ## Contributors
 
-- Juan Morinelli (Aimpoint Digital)
-- Linlin Yang (Aimpoint Digital) 
+- Linlin Yang (Aimpoint Digital)
+- Juan Morinelli (Aimpoint Digital) 
 - Peyman Mohajerian (Databricks)
 - Bryan Smith (Databricks)
 
@@ -68,4 +71,10 @@ graph LR
 
 This project is licensed under the Apache 2.0 License - see the LICENSE file for details.
 
-Data sourced from [Rebrickable](https://rebrickable.com/downloads/) under their [terms of use](https://rebrickable.com/terms-of-service/).
+Data sourced from [Rebrickable](https://rebrickable.com) under their [terms of use](https://rebrickable.com/terms/).
+
+
+## Project support
+Please note the code in this project is provided for your exploration only, and are not formally supported by Databricks with Service Level Agreements (SLAs). They are provided AS-IS and we do not make any guarantees of any kind. Please do not submit a support ticket relating to any issues arising from the use of these projects. The source in this project is provided subject to the Databricks License. All included or referenced third party libraries are subject to the licenses set forth below.
+
+Any issues discovered through the use of this project should be filed as GitHub Issues on the Repo. They will be reviewed as time permits, but there are no formal SLAs for support.
