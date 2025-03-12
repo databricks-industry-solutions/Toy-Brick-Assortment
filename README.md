@@ -3,9 +3,15 @@
 [![DBR](https://img.shields.io/badge/DBR-CHANGE_ME-red?logo=databricks&style=for-the-badge)](https://docs.databricks.com/release-notes/runtime/CHANGE_ME.html)
 [![CLOUD](https://img.shields.io/badge/CLOUD-CHANGE_ME-blue?logo=googlecloud&style=for-the-badge)](https://databricks.com/try-databricks)
 
-# LEGO Assortment Optimization
+# Assembling Lego Sets with Gurobi & Databricks
 
 This project demonstrates mathematical optimization techniques for solving product assortment problems using LEGO datasets as an example. It leverages Databricks, PySpark, and Gurobi to optimize which LEGO sets can be built from available parts.
+
+## Introduction
+
+- **Optimization Focus**: Shows how mathematical optimization helps find the best decisions while handling real-world constraints
+- **LEGO Example**: Uses LEGO sets to demonstrate how optimization can maximize value while managing limited resources
+- **Technical Stack**: Integrates Gurobi's optimization solver with Databricks for scalable data processing and solution deployment
 
 ## Architecture
 
