@@ -61,10 +61,7 @@ graph LR
 | Library | Description | License | Source |
 |---------|-------------|---------|---------|
 | Gurobi | Commercial optimization solver for large-scale mathematical programming | Commercial | https://www.gurobi.com/ |
-| PySpark | Distributed computing framework for large-scale data processing | Apache 2.0 | https://pypi.org/project/pyspark/ |
-| MLflow | Platform for ML lifecycle management including tracking experiments and models | Apache 2.0 | https://pypi.org/project/mlflow/ |
-| Pandas | Data manipulation and analysis library | BSD 3-Clause | https://pypi.org/project/pandas/ |
-| NumPy | Fundamental package for scientific computing | BSD 3-Clause | https://pypi.org/project/numpy/ |
+
 
 ## Contributors
 
