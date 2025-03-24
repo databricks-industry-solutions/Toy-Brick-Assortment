@@ -3,21 +3,21 @@
 [![DBR](https://img.shields.io/badge/DBR-CHANGE_ME-red?logo=databricks&style=for-the-badge)](https://docs.databricks.com/release-notes/runtime/CHANGE_ME.html)
 [![CLOUD](https://img.shields.io/badge/CLOUD-CHANGE_ME-blue?logo=googlecloud&style=for-the-badge)](https://databricks.com/try-databricks)
 
-# Assembling Lego Sets with Gurobi & Databricks
+# Assembling Toy Brick Sets with Gurobi & Databricks
 
-This project demonstrates mathematical optimization techniques for solving product assortment problems using LEGO datasets as an example. It leverages Databricks, PySpark, and Gurobi to optimize which LEGO sets can be built from available parts.
+This project demonstrates mathematical optimization techniques for solving product assortment problems using toy brick datasets as an example. It leverages Databricks, PySpark, and Gurobi to optimize which toy brick sets can be built from available parts.
 
 ## Introduction
 
 - **Optimization Focus**: Shows how mathematical optimization helps find the best decisions while handling real-world constraints
-- **LEGO Example**: Uses LEGO sets to demonstrate how optimization can maximize value while managing limited resources
+- **Toy Brick Example**: Uses toy brick sets to demonstrate how optimization can maximize value while managing limited resources
 - **Technical Stack**: Integrates Gurobi's optimization solver with Databricks for scalable data processing and solution deployment
 
 ## Architecture
 
 ```mermaid
 graph LR
-    A[LEGO Dataset] --> B[Data Prep]
+    A[Toy Brick Dataset] --> B[Data Prep]
     B --> C[Optimization Model]
     C --> D[Results]
     
@@ -37,7 +37,7 @@ graph LR
 
 ## Notebooks
 
-1. `01_Prepare_Data.ipynb` - Processes raw LEGO dataset into optimization-ready format
+1. `01_Prepare_Data.ipynb` - Processes raw toy brick dataset into optimization-ready format
 2. `02_Optimization_Model.ipynb` - Introduces optimization concepts with a small example
 3. `03_Optimization_Model_Large.ipynb` - Demonstrates large-scale optimization
 
@@ -74,7 +74,7 @@ graph LR
 
 see the LICENSE file for details.
 
-- LEGO dataset is provided by [Rebrickable](https://rebrickable.com) under their [terms of use](https://rebrickable.com/terms/)
+- toy brick dataset is provided by [Rebrickable](https://rebrickable.com) under their [terms of use](https://rebrickable.com/terms/)
 - Gurobi Optimizer requires a separate commercial license for full functionality. See [licensing options](https://www.gurobi.com/solutions/licensing/)
 
 
